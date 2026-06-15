@@ -1,0 +1,174 @@
+{
+  "settings": {
+    "name": "memp-ool",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.1.12",
+    "siteFonts": [
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/mempool-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://memp-ool.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://memp-ool.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "l3liemqxtn",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 3,
+    "versionPublish": "6.1.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mempool - The Open Source Project®",
+        "meta_descr": "Mempool is, How Blockchain Transactions are Processed, Why Network Congestion Occurs, and How Transaction Fees Affect Confirmation Times.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://mempool.space/\"><img src=\"@PROJECT_PATH@/assets/images/mempool-p.1.png\" alt=\"Mempool\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmCfpgGRq8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://mempool.space/\"><img src=\"@PROJECT_PATH@/assets/images/mempool-p.2.png\" alt=\"Mempool\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmCfptiPEY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b><a href=\"https://mempool.space/\" class=\"text-primary\">Mempool</a> - The Open Source Project®</b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://mempool.space/\" class=\"text-primary\">Mempool</a>: The Waiting Room of Blockchain Transactions</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Introduction :&gt;</b><br>Blockchain technology has transformed the way digital transactions are processed and verified. Behind every successful cryptocurrency transfer lies an important but often overlooked component known as the <b>Mempool</b>. Short for \"memory pool,\" the <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>serves as a temporary holding area where transactions wait before being confirmed and added to the blockchain. Understanding how the <b>Mempool </b>works is essential for anyone involved in cryptocurrencies, blockchain development, or decentralized finance.<br><br><b>What Is a Mempool?<br></b>A <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>is a collection of unconfirmed transactions maintained by nodes in a blockchain network. When a user initiates a transaction, it is first broadcast to the network and enters the <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>of participating nodes. The transaction remains there until a miner or validator selects it for inclusion in a new block.<br>In simple terms, the Mempool functions like a waiting room at a hospital. Transactions arrive, wait their turn, and are eventually processed based on network rules and incentives.<br><br><b>How Transactions Enter the Mempool ://</b><br>The process begins when a user submits a transaction through a wallet or application. The transaction is then propagated across the network and undergoes basic validation checks, such as:<br><b>1.</b>&nbsp; Verifying digital signatures&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>2.</b> Confirming sufficient account balance<br><b>3.</b> Ensuring the transaction format is valid&nbsp; &nbsp;<b>4.</b> Checking for double-spending attempts<br><b>//</b>&nbsp; Once validated, the transaction is placed in the Mempool and becomes visible to miners or validators.<br><br><b>Transaction Selection and Fees ://</b><br>Most blockchain networks have limited block space. As a result, not every transaction can be included immediately. Miners and validators typically prioritize transactions offering higher fees because these fees serve as an incentive for processing them.<br><br>When network activity is low, transactions with modest fees may be confirmed quickly. During periods of congestion, however, users often compete by offering higher fees to secure faster confirmation.<br>For example, on the Bitcoin network, miners frequently select transactions based on the fee paid per byte of transaction data. This creates a fee market where demand for block space influences transaction costs.<br><br><b>Mempool Congestion ://</b><br><a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>congestion occurs when the number of incoming transactions exceeds the network's processing capacity. During these periods:<br><b>1.&nbsp;</b> &nbsp;Transaction fees rise significantly.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<b>2.&nbsp;</b>Confirmation times increase.<br><b>3.&nbsp;</b> Lower-fee transactions may remain unconfirmed for extended periods.<br><b>4.</b>&nbsp; Some nodes may eventually discard very old or low-priority transactions.<br><b>//</b>&nbsp; Congestion commonly occurs during periods of high market volatility, NFT launches, token sales, or widespread adoption events.<br><br><b>Differences Across Blockchain Networks</b><br>Not all blockchains manage Mempools in the same way.<br><b>Bitcoin :/</b><br>Bitcoin uses a transparent <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool</a> system where transactions compete primarily based on transaction fees. The Mempool is publicly observable, allowing users to estimate appropriate fees for confirmation.<br><b>Ethereum :/</b><br>Ethereum's mempool is more complex due to smart contract interactions. Validators often prioritize transactions based on gas fees, and users may adjust fees dynamically to accelerate processing.<br><b>Proof-of-Stake Networks :/<br></b>Many Proof-of-Stake (PoS) blockchains maintain mempools while relying on validators instead of miners. Although the selection mechanism differs, the fundamental purpose remains the same: temporarily storing unconfirmed transactions.<br><br><b>Why the Mempool Matters<br></b>The <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>plays a crucial role in blockchain operations by:<br><b>1.</b>&nbsp; Managing transaction flow across the network.<br><b>2.</b> Preventing immediate overload of blockchain nodes.<br><b>3.</b> Creating a marketplace for transaction prioritization.<br><b>4.</b> Providing transparency into network demand and congestion.<br><b>5.</b> Helping users estimate transaction confirmation times.<br><b>//</b>&nbsp; For traders and investors, Mempool activity can also provide insights into network usage and market behavior.<br><br><b>Security Considerations ://</b><br>Because transactions are visible in the <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>before confirmation, certain risks can arise. One example is front-running, where participants observe pending transactions and submit competing transactions with higher fees to gain priority.<br>Blockchain developers continue to explore solutions such as private transaction pools, encrypted mempools, and advanced ordering mechanisms to reduce these risks.<br><br><b>Future Developments //</b><br>As blockchain adoption grows, scalability solutions are becoming increasingly important. Technologies such as Layer 2 networks, rollups, sharding, and improved consensus mechanisms aim to reduce Mempool congestion and improve transaction throughput.<br><br>Future blockchain architectures may significantly alter or even replace traditional Mempool designs, but the underlying challenge of managing pending transactions will remain a critical aspect of decentralized systems.<br><br><b>Conclusion ://</b><br>The <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>is a fundamental component of blockchain infrastructure that acts as a bridge between transaction submission and confirmation. By temporarily storing and organizing unconfirmed transactions, it helps maintain network efficiency, security, and fairness. Whether you are a cryptocurrency user, investor, or developer, understanding the <a href=\"https://mempool.space/\" class=\"text-primary\">Mempool </a>provides valuable insight into how blockchain networks process transactions and manage demand.</p>\n              </div>\n            </div>\n            \n            \n            \n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vmCfqmMtRG",
+          "_anchor": "article07-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
